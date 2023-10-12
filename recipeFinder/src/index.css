@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.h2 {
+    text-align: center;
+    background: linear-gradient(to bottom right, #4aedf5, #302fc7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 60px;
+}
