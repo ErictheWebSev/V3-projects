@@ -1,70 +1,28 @@
-http://localhost:5173
-
-
-
-Certainly, here's an example of what the "Discover" section on Reacshon's landing page might look like:
-
-```html
 <section id="discover">
   <div class="container">
-    <h2>Discover Beautiful Art</h2>
-    <p>Explore a world of art from talented artists worldwide.</p>
-    <div class="art-grid">
-      <!-- Sample Artwork Cards -->
-      <div class="art-card">
-        <img src="artwork1.jpg" alt="Artwork 1">
-        <h3>Artwork Title 1</h3>
-        <p>Artist: Artist Name 1</p>
+    <h2>Explore Fascinating Science</h2>
+    <p>Embark on a journey through the world of science and innovation.</p>
+    <div class="science-grid">
+      <!-- Sample Science Cards -->
+      <div class="science-card">
+        <img src="experiment1.jpg" alt="Experiment 1">
+        <h3>Experiment Title 1</h3>
+        <p>Researcher: Researcher Name 1</p>
         <a href="#">View Details</a>
       </div>
-      <div class="art-card">
-        <img src="artwork2.jpg" alt="Artwork 2">
-        <h3>Artwork Title 2</h3>
-        <p>Artist: Artist Name 2</p>
+      <div class="science-card">
+        <img src="discovery2.jpg" alt="Discovery 2">
+        <h3>Scientific Discovery 2</h3>
+        <p>Scientist: Scientist Name 2</p>
         <a href="#">View Details</a>
       </div>
-      <div class="art-card">
-        <img src="artwork3.jpg" alt="Artwork 3">
-        <h3>Artwork Title 3</h3>
-        <p>Artist: Artist Name 3</p>
+      <div class="science-card">
+        <img src="invention3.jpg" alt="Invention 3">
+        <h3>Invention Title 3</h3>
+        <p>Inventor: Inventor Name 3</p>
         <a href="#">View Details</a>
       </div>
-      <!-- Add more artwork cards here -->
+      <!-- Add more science cards here -->
     </div>
   </div>
 </section>
-```
-
-In this example, the "Discover" section features a heading introducing the concept and a brief description. It then displays a grid of sample artwork cards, each with an image, artwork title, artist's name, and a "View Details" link. Users can click on the link to explore the details of each artwork.
-
-You can expand this section by adding more artwork cards and dynamically loading
-content from your database to ensure fresh and diverse art is presented to users
-on the landing page. Additionally, you can use CSS to style the section and make
-it visually appealing.
-
-Certainly, here's an example of what the "About" section on Reacshon's landing page might look like:
-
-```html
-<section id="about">
-  <div class="container">
-    <h2>About SciQuest</h2>
-    <p>Welcome to SciQuest, your portal for exploring the wonders of science and innovation.</p>
-    <p>Our Mission:</p>
-    <p>At SciQuest, we are dedicated to fostering curiosity and knowledge in the world of science. Our mission is to provide a platform where you can embark on a journey of discovery, engage with cutting-edge research, and connect with a community of passionate science enthusiasts.</p>
-    <p>Why Choose SciQuest:</p>
-    <ul>
-      <li>Explore a wide spectrum of scientific fields and breakthroughs.</li>
-      <li>Stay updated with the latest scientific developments and research findings.</li>
-      <li>Connect with scientists, researchers, and fellow science enthusiasts.</li>
-      <li>Share your own scientific insights and contribute to the global scientific conversation.</li>
-    </ul>
-    <p>Join us in this scientific adventure and start exploring the world of SciQuest today!</p>
-  </div>
-</section>
-```
-
-In this example, the "About" section provides a brief introduction to Reacshon,
-its mission, and the reasons why users should choose the platform. It also lists
-some key features of Reacshon and encourages users to join the community. You
-can enhance this section by adding more details or styling it according to your
-website's design.
