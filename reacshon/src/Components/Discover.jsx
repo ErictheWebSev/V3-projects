@@ -4,7 +4,7 @@ const Discover = () => {
       <h2 className="text-4xl text-secondary text-center font-bold mt-32 underline-offset-0 mb-4">Explore Fascinating Science </h2>
       <p className="text-lg text-gray-400 text-center sm:text-left">Embark on a journey through the world of science and innovation.</p>
       
-       <div className="flex flex-wrap flex-col sm:flex-row w-full items-center justify-center space-y-5 sm:justify-around mt-5">
+{/*       <div className="flex flex-wrap flex-col sm:flex-row w-full items-center justify-center space-y-5 sm:justify-around mt-5">
         <div className="course-box">
           <img className="w-full rounded-t-xl h-64" src="static/images/category.jpg" alt="" />
           <div className="max-w-prose p-4 space-y-3">
@@ -31,7 +31,7 @@ const Discover = () => {
           </div>
           </div>
         </div>
-       </div>
+       </div> */}
     </section>
   )
 }
