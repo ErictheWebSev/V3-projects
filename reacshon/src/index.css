@@ -6,6 +6,12 @@
   font-size: 94%;
 }
 
+#whyUs {
+  background-image: url('./assets/hero4.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 @layer components {
   .hamburger {
     cursor: pointer;
@@ -107,8 +113,8 @@
 
 .course-box {
   width: 19rem;
-  height: 40rem;
-  box-shadow: 0 0 4px rbga(0,0,0,0.9);
+  height: 27.5rem;
+  box-shadow: .5rem 1rem 1.5rem rgba(0,0,0,.1); 
   border: 1px solid transparent;
   background-color: white;
 

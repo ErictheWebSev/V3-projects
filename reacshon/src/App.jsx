@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
 import About from './Components/About'
 import Discover from './Components/Discover'
+import Contact from './Components/Contact'
 
  const App = () => {
 
@@ -13,6 +14,7 @@ import Discover from './Components/Discover'
         <Hero />
         <About />
         <Discover />
+        <Contact />
       </div>
     </div>
   )

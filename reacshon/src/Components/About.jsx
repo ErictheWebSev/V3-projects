@@ -4,7 +4,7 @@ import AboutBg from '../assets/hero2.jpg'
 const About = () => {
   return (
     <section id="about">
-    <div className="flex flex-col-reverse sm:flex-row mt-28 p-4 sm:space-x-7 justify-between items-center">
+    <div className="flex flex-col-reverse sm:flex-row mt-28 px-4 py-28 sm:space-x-7 justify-between items-center">
       <article className="sm:w-1/2 relative bg-transparent">
        <h2 className="text-4xl text-secondary text-center font-bold mt-32
        underline-offset-0">About SciQuest </h2>
@@ -23,7 +23,7 @@ const About = () => {
       src={AboutBg} alt="Rocket dab" />
       </div>
     
-      <div className="max-w-5xl px-3 py-4">
+      <div className="max-w-5xl px-3 py-16" id="whyUs">
        <h2 className="text-4xl text-secondary text-center font-bold mt-32 underline-offset-0 mb-4">Why Choose SciQuest </h2>
        <div className="flex flex-wrap flex-col sm:flex-row w-full items-center justify-center space-y-5 sm:justify-around mt-5">
          <div className="w-80 sm:w-56 h-[15rem] py-10 px-4 rounded-xl block
