@@ -1,8 +1,11 @@
 import HeroBg from '../assets/hero3.png'
+import About from './About.jsx'
+import Discover from './Discover.jsx'
 
 const Hero = () => {
   return (
-    <section className="flex flex-col-reverse sm:flex-row mb-16 p-4 gap-12
+    <>
+    <section className="flex flex-col-reverse sm:flex-row my-16 p-4 gap-12
     justify-center items-center">
       <article class="sm:w-1/2 relative bg-transparent">
         <h2 className="max-w-md text-4xl text-slate-900 text-center sm:text-5xl
@@ -17,6 +20,11 @@ const Hero = () => {
       
       <img className="sm:w-1/2 sm:mb-0 mb-12" src={HeroBg} alt="Hero" />
     </section>
+    <div className="max-w-[60rem] mx-auto">
+      <About />
+      <Discover />
+    </div>
+  </>
   )
 }
 
